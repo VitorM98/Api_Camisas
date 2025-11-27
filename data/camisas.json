@@ -1,67 +1,33 @@
 {
   "masculino": {
     "P": {
-      "branco": {
-        "vendidos": 12,
-        "estoque": 34
-      },
-      "preto": {
-        "vendidos": 21,
-        "estoque": 18
-      }
+      "branco": { "vendidos": 12, "estoque": 34 },
+      "preto": { "vendidos": 21, "estoque": 18 }
     },
     "M": {
-      "branco": {
-        "vendidos": 15,
-        "estoque": 22
-      },
-      "preto": {
-        "vendidos": 18,
-        "estoque": 25
-      }
+      "branco": { "vendidos": 15, "estoque": 22 },
+      "preto": { "vendidos": 18, "estoque": 25 }
     },
     "G": {
-      "branco": {
-        "vendidos": 9,
-        "estoque": 30
-      },
-      "preto": {
-        "vendidos": 27,
-        "estoque": 12
-      }
+      "branco": { "vendidos": 13, "estoque": 28 },
+      "preto": { "vendidos": 19, "estoque": 21 }
     }
   },
+
   "feminino": {
-    "P": {
-      "branco": {
-        "vendidos": 20,
-        "estoque": 40
-      },
-      "preto": {
-        "vendidos": 14,
-        "estoque": 32
-      }
+       "P": {
+      "branco": { "vendidos": 12, "estoque": 34 },
+      "preto": { "vendidos": 21, "estoque": 18 }
     },
     "M": {
-      "branco": {
-        "vendidos": 11,
-        "estoque": 37
-      },
-      "preto": {
-        "vendidos": 22,
-        "estoque": 17
-      }
+      "branco": { "vendidos": 15, "estoque": 22 },
+      "preto": { "vendidos": 18, "estoque": 25 }
     },
     "G": {
-      "branco": {
-        "vendidos": 13,
-        "estoque": 28
-      },
-      "preto": {
-        "vendidos": 19,
-        "estoque": 21
-      }
+      "branco": { "vendidos": 13, "estoque": 28 },
+      "preto": { "vendidos": 19, "estoque": 21 }
     }
   },
+
   "valor_total_vendido": 10050
 }

@@ -13,11 +13,13 @@ const caminhoJson = path.join(__dirname, "data", "camisas.json");
 // Carrega o JSON
 const camisas = JSON.parse(fs.readFileSync(caminhoJson, "utf8"));
 
-// ➤ Cálculo do valor total vendido (caso queira garantir que esteja sempre atualizado)
+// ➤ Cálculo do valor total vendido (sem quebrar caso "feminino" não exista)
 function calcularTotalVendido() {
   let totalVendidos = 0;
 
   ["masculino", "feminino"].forEach((tipo) => {
+    if (!camisas[tipo]) return; // evita erro caso o tipo não exista
+
     Object.values(camisas[tipo]).forEach((tamanhos) => {
       Object.values(tamanhos).forEach((cores) => {
         totalVendidos += cores.vendidos;
