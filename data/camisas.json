@@ -29,5 +29,6 @@
     }
   },
 
-  "valor_total_vendido": 10050
+  "valor_total_vendido": 10050,
+  "preco_fixo": 50
 }
